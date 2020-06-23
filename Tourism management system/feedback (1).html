@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Tourism Management System</title>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+<center><font face="Brush Script MT" size=8>Travel Agency</font></center>
+<p align=right><a href=sign.html>Sign in |</a><a href=account.html>My Account |</a>
+<body bgcolor="#FEF9E7 ">
+
+<ul>
+  <li><a class="active" href="home.php">Home</a></li>
+  <li><a href="package.html">Holiday Packages</a></li>
+  <li><a href="best.html">Best Deals</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+</ul>
+<center><h1>Feedback</h1></center>
+<form name="registration"  action="feedback.php" method="post" >
+<center>
+<table>
+<tr>
+<td>User ID:</td>
+<td><input type="text" name="t1" /></td>
+</tr>
+<tr>
+<td>What was your first impression when you entered website?</td>
+<td><textarea name="q1" id="q1"></textarea></td>
+</tr>
+<tr>
+<td>How did you first hear about us?</td>
+<td><textarea name="q2" id="q2"></textarea></td>
+</tr>
+<tr>
+<td>Is there anything missing on this page?</td>
+<td><textarea name="q3" id="q3"></textarea></td>
+</tr>
+<tr>
+<td>How likely are you to recommend us to a friend or collegue?</td>
+<td><textarea name="q4" id="q4"></textarea></td>
+</tr>
+</table>
+<input type="submit" name="submit" id="submit" value="submit" >
+</body>
+</html>
